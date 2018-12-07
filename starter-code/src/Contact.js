@@ -78,7 +78,7 @@ class Contact extends Component {
         <h2>Name: {ourCeleb.name}</h2>
         <img src={ourCeleb.pictureUrl}></img>
         <h4>Popularity: {ourCeleb.popularity}</h4>
-        <button onClick={()=> this.deleteCeleb()}>Delete This Celeb</button>                   
+        <button onClick={()=> this.deleteCeleb(index)}>Delete This Celeb</button>                   
       </div>
     )
   })   
